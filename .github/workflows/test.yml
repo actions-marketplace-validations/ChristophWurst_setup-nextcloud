@@ -13,7 +13,7 @@ jobs:
       - name: Set up Nextcloud env
         uses: ./
         with:
-          nextcloud-version: stable25
+          nextcloud-version: stable31
           node-version: false
           php-version: false
 
@@ -28,10 +28,10 @@ jobs:
       - name: Set up Nextcloud env
         uses: ./
         with:
-          nextcloud-version: stable25
-          node-version: 18
-          npm-version: 8
-          php-version: '8.0'
+          nextcloud-version: stable32
+          node-version: 24
+          npm-version: 11
+          php-version: '8.4'
       - name: Test node env
         run: |
           node --version
@@ -49,7 +49,7 @@ jobs:
       - name: Set up Nextcloud env
         uses: ./
         with:
-          nextcloud-version: stable25
+          nextcloud-version: stable30
           install: true
       - name: Test occ
         run: php -f nextcloud/occ config:list
