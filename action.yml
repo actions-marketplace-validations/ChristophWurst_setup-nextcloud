@@ -27,7 +27,7 @@ inputs:
   php-version:
     description: 'PHP version to set up'
     required: false
-    default: '8.1'
+    default: '8.3'
   php-coverage:
     description: 'PHP coverage support'
     required: false
