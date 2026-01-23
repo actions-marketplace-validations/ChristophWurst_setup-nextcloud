@@ -7,7 +7,7 @@ jobs:
     name: Test bare minimum
     steps:
       - name: Checkout code
-        uses: actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5 # v2
+        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6
         with:
           path: "./"
       - name: Set up Nextcloud env
@@ -22,7 +22,7 @@ jobs:
     name: Test simple setup
     steps:
       - name: Checkout code
-        uses: actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5 # v2
+        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6
         with:
           path: "./"
       - name: Set up Nextcloud env
@@ -43,7 +43,7 @@ jobs:
     name: Test installation
     steps:
       - name: Checkout code
-        uses: actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5 # v2
+        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6
         with:
           path: "./"
       - name: Set up Nextcloud env
@@ -58,7 +58,7 @@ jobs:
     name: Test krankerl
     steps:
       - name: Checkout code
-        uses: actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5 # v2
+        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6
         with:
           path: "./"
       - name: Set up Nextcloud env
@@ -73,7 +73,7 @@ jobs:
     name: Test nightly PHP
     steps:
       - name: Checkout code
-        uses: actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5 # v2
+        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6
         with:
           path: "./"
       - name: Set up Nextcloud env
@@ -104,7 +104,7 @@ jobs:
               --health-retries=3
     steps:
       - name: Checkout code
-        uses: actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5 # v2
+        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6
         with:
           path: "./"
       - name: Set up Nextcloud env
