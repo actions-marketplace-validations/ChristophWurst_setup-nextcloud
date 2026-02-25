@@ -1,5 +1,7 @@
 # Setup Nextcloud Github Action
 
+> **Deprecated:** This action has moved to [nextcloud/setup-server-action](https://github.com/nextcloud/setup-server-action). Please update your workflows to use `nextcloud/setup-server-action` instead. This repository is archived and will no longer receive updates.
+
 Set up a Nextcloud environment. Batteries included, but removable.
 
 ## Inputs

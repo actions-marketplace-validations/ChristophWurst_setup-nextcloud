@@ -43,6 +43,9 @@ inputs:
 runs:
   using: "composite"
   steps:
+    - name: Deprecation warning
+      shell: bash
+      run: echo "::warning::This action (ChristophWurst/setup-nextcloud) is deprecated. Please switch to nextcloud/setup-server-action."
     - name: Checkout Nextcloud
       shell: bash
       run: git clone https://github.com/nextcloud/server.git --recursive --depth 1 -b ${{ inputs.nextcloud-version }} nextcloud
